@@ -28,10 +28,22 @@
       z-index: 20;
     }
 
-    nav img {
-      width: 155px;
-      max-height: 70px;
-      object-fit: contain;
+ .logo-wrap {
+  background: rgba(255,255,255,.96);
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 1px solid rgba(212,175,55,.75);
+  box-shadow: 0 12px 30px rgba(0,0,0,.18);
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrap img {
+  width: 205px;
+  max-height: 78px;
+  object-fit: contain;
+  display: block;
+}
     }
 
     nav a {
@@ -339,7 +351,9 @@
 <body>
 
 <nav>
+  <div class="logo-wrap">
   <img src="/logo.png" alt="Logan Pathway to Hope & Healing Logo">
+</div>
   <div>
     <a href="/">Home</a>
     <a href="/story.html">Our Story</a>
